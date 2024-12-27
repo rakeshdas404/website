@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Wildfire Analysis</title>
+    <title>Insurance Policy Adoption Prediction</title>
     <meta name="description" content="Case study page of Project" />
 
     <link rel="stylesheet" href="css/style.css" />
@@ -23,7 +23,7 @@
           <div class="header__logo-img-cont">
             <img
               src="./assets/png/rakesh-das.png"
-              alt="Rakesh Das Logo Image"
+              alt="Ram Maheshwari Logo Image"
               class="header__logo-img"
             />
           </div>
@@ -84,14 +84,14 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Wildfire Analysis in British Columbia</h1>
+        <h1 class="heading-primary">Insurance Policy Adoption Prediction</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            This analysis investigates wildfire occurrences in British Columbia (B.C.) over time, focusing on historical and current data from 2024.
+            Leveraging XGBoost to Analyze Customer Behavior and Optimize Insurance Strategies.
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="./project-3.pdf" class="btn btn--bg" target="_blank">View Report</a>
+          <a href="./report-8.pdf" class="btn btn--bg" target="_blank">VIEW REPORT</a>
         </div>
       </div>
     </section>
@@ -100,7 +100,7 @@
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="./assets/jpeg/wildfire.jpg"
+              src="./assets/png/project-8.png"
               alt="Project Image"
               class="project-details__showcase-img"
             />
@@ -109,31 +109,24 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                To achieve this, historical wildfire data was scraped and analyzed alongside current data. The analysis integrates additional variables such as temperature and elevation, leveraging the geodata package for spatial analysis. Using visualizations, I examined the distribution of wildfires over time and explored how temperature and elevation impact fire occurrences.
-                
+                This project focuses on building a machine learning-based predictive model to determine whether a customer is likely to opt for an insurance policy based on various demographic, financial, and behavioral factors. The core objective is to help insurance companies optimize their marketing strategies, improve customer targeting, and reduce acquisition costs by identifying high-potential leads. Using a structured pipeline that encompasses data preprocessing, feature engineering, and model evaluation, the project demonstrates how modern techniques in data science can be leveraged to address real-world business challenges. The model was implemented using the XGBoost classifier, which excels at handling large datasets, class imbalance, and complex patterns. To ensure interpretability, visualization tools and statistical insights were incorporated to illustrate relationships between input features and predictions, allowing stakeholders to make data-driven decisions confidently.
               </p>
               <p class="project-details__desc-para">
-                A key aspect of this work is comparing historical wildfire distributions to those observed in 2024. The goal is to uncover shifts in wildfire behavior and identify potential drivers of these changes. All findings are presented through standalone visualizations and supported by detailed discussions, which also address data and analysis limitations.
+                This solution was built with Python and integrates popular data science libraries like Pandas, NumPy, Scikit-Learn, and XGBoost to deliver a scalable and accurate prediction pipeline. The dataset was carefully processed to handle missing values, categorical encoding, and feature scaling, ensuring high-quality inputs for model training. Performance metrics such as accuracy, F1-score, and ROC-AUC were analyzed to evaluate the model's effectiveness in distinguishing policy adopters from non-adopters. Furthermore, visual tools like Seaborn and Matplotlib were employed to provide a visual narrative of the dataset, exposing trends, distributions, and class imbalances. By combining domain knowledge with advanced statistical methods, this project lays the foundation for more robust predictive analytics in the insurance industry.
+                  
+                The predictive model achieved a training accuracy of 63.1% and a test accuracy of 59%, indicating a moderate ability to generalize to unseen data. Key performance metrics, including precision (83%) for the majority class and an ROC-AUC score of 0.64, highlight the model’s capability to distinguish between policy adopters and non-adopters. While the model effectively captured patterns for the dominant class, it faced challenges in predicting the minority class due to class imbalance. Insights derived from the feature importance analysis revealed that variables such as income levels, previous policies, and age were strong predictors of insurance adoption, providing valuable guidance for targeted marketing strategies and policy customization.
               </p>
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
-                <div class="skills__skill">geodata</div>
-                    <div class="skills__skill">sf</div>
-                    <div class="skills__skill">terra</div>
-                    <div class="skills__skill">raster</div>
-                    <div class="skills__skill">spData</div>
-                    <div class="skills__skill">rvest</div>
-                    <div class="skills__skill">ggplot2</div>
-                    <div class="skills__skill">patchwork</div>
-                    <div class="skills__skill">gganimate</div>
-                    <div class="skills__skill">ggspatial</div>
-                    <div class="skills__skill">rnaturalearth</div>
-                    <div class="skills__skill">dplyr</div>
-                    <div class="skills__skill">ggpubr</div>
-                    <div class="skills__skill">cowplot</div>
-
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">XGBoost</div>
+                <div class="skills__skill">Scikit-Learn</div>
+                <div class="skills__skill">Pandas</div>
+                <div class="skills__skill">NumPy</div>
+                <div class="skills__skill">Matplotlib</div>
+                <div class="skills__skill">Seaborn</div>
               </div>
             </div>
             <div class="project-details__links">
@@ -145,7 +138,7 @@
                 >Live Link</a
               >
               <a
-                href="https://github.com/rakeshdas404/code-R/blob/main/British%20Columbia%20Wildfire%20analysis.qmd"
+                href="https://github.com/rakeshdas404/codes-python/blob/9496d28f1b772c27419fcf873d7610d1ad1c8c52/Insurance%20Adoption%20Prediction.ipynb"
                 class="btn btn--med btn--theme-inv project-details__links-btn"
                 target="_blank"
                 >Code Link</a

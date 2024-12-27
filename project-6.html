@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Wildfire Analysis</title>
-    <meta name="description" content="Case study page of Project" />
+    <title>Insurance Policy Adoption Prediction</title>
+    <meta name="description" content="Nonogram Puzzle Solver and Generator" />
 
     <link rel="stylesheet" href="css/style.css" />
 
@@ -23,7 +23,7 @@
           <div class="header__logo-img-cont">
             <img
               src="./assets/png/rakesh-das.png"
-              alt="Rakesh Das Logo Image"
+              alt="Ram Maheshwari Logo Image"
               class="header__logo-img"
             />
           </div>
@@ -84,14 +84,14 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Wildfire Analysis in British Columbia</h1>
+        <h1 class="heading-primary">Nonogram Puzzle Solver and Generator</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            This analysis investigates wildfire occurrences in British Columbia (B.C.) over time, focusing on historical and current data from 2024.
+            Efficient Constraint-Based Solvers and Image-to-Nonogram Conversion
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="./project-3.pdf" class="btn btn--bg" target="_blank">View Report</a>
+          <a href="./report-6.pdf" class="btn btn--bg" target="_blank">VIEW REPORT</a>
         </div>
       </div>
     </section>
@@ -100,7 +100,7 @@
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="./assets/jpeg/wildfire.jpg"
+              src="./assets/png/project-6.png"
               alt="Project Image"
               class="project-details__showcase-img"
             />
@@ -109,31 +109,25 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                To achieve this, historical wildfire data was scraped and analyzed alongside current data. The analysis integrates additional variables such as temperature and elevation, leveraging the geodata package for spatial analysis. Using visualizations, I examined the distribution of wildfires over time and explored how temperature and elevation impact fire occurrences.
-                
+                This project tackles the problem of solving and generating Nonogram puzzles, a type of logic-based grid puzzle, using Python. The first part focuses on building a Nonogram Solver capable of parsing input files containing row and column clues, setting up a grid, and applying dynamic programming techniques to find valid solutions. The solver incorporates constraint propagation to refine possibilities, ensuring optimal solutions even for larger grids. The algorithm is optimized with timeout handling and file parsing enhancements, significantly improving scalability. While the solver successfully handles medium-sized puzzles, larger puzzles posed challenges, where partial solutions were generated as intermediate outputs, demonstrating the algorithm’s effectiveness and scalability.
               </p>
               <p class="project-details__desc-para">
-                A key aspect of this work is comparing historical wildfire distributions to those observed in 2024. The goal is to uncover shifts in wildfire behavior and identify potential drivers of these changes. All findings are presented through standalone visualizations and supported by detailed discussions, which also address data and analysis limitations.
+                The second part focuses on a Nonogram Generator, which converts images into solvable Nonogram puzzles. A threshold-based approach is used to preprocess input images, converting them to binary grids based on pixel intensity. Preprocessing steps include grayscale conversion, histogram equalization, and image resizing to ensure clarity and usability. The generator outputs both row and column clues and a visual representation of the grid, enabling users to recreate the puzzle manually. This implementation highlights the balance between image simplification and puzzle complexity, ensuring the generated puzzles are both solvable and visually meaningful.
+                  
+                
               </p>
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
-                <div class="skills__skill">geodata</div>
-                    <div class="skills__skill">sf</div>
-                    <div class="skills__skill">terra</div>
-                    <div class="skills__skill">raster</div>
-                    <div class="skills__skill">spData</div>
-                    <div class="skills__skill">rvest</div>
-                    <div class="skills__skill">ggplot2</div>
-                    <div class="skills__skill">patchwork</div>
-                    <div class="skills__skill">gganimate</div>
-                    <div class="skills__skill">ggspatial</div>
-                    <div class="skills__skill">rnaturalearth</div>
-                    <div class="skills__skill">dplyr</div>
-                    <div class="skills__skill">ggpubr</div>
-                    <div class="skills__skill">cowplot</div>
-
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">Matplotlib</div>
+                <div class="skills__skill">PyQt5</div>
+                <div class="skills__skill">Scikit-Image</div>
+                <div class="skills__skill">NumPy</div>
+                <div class="skills__skill">Pandas</div>
+                <div class="skills__skill">Dynamic Programming</div>
+                <div class="skills__skill">Constraint Propagation</div>
               </div>
             </div>
             <div class="project-details__links">
@@ -145,7 +139,7 @@
                 >Live Link</a
               >
               <a
-                href="https://github.com/rakeshdas404/code-R/blob/main/British%20Columbia%20Wildfire%20analysis.qmd"
+                href="https://github.com/rakeshdas404/codes-python/tree/02377f0ef12dec03dfdf5b30c37d5131c059835d/creative%20coding/nonogram%20solver"
                 class="btn btn--med btn--theme-inv project-details__links-btn"
                 target="_blank"
                 >Code Link</a
